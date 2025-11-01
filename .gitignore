@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+env/
+venv/
+ENV/
+.uv/
+.uv-cache/
+.uv-venv/
+
+# --- Jupyter Notebooks checkpoints ---
+.ipynb_checkpoints/
+
+# --- Logs and cache ---
+*.log
+*.tmp
+*.bak
+*.swp
+.cache/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- VSCode / IDE settings ---
+.vscode/
+.idea/
+
+# --- Build and packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- Environment and secret files ---
+.env
+.env.*
+*.env
+
+# --- Data (optional – CSV kept intentionally) ---
+# If you want to ignore large datasets later, uncomment below line:
+# *.csv
